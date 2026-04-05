@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Outfit:wght@300;400;500;600&display=swap");
+
+/* ─── FriendlyTrips Color Palette ─── */
+:root {
+  --ft-navy: #0d1f3c;
+  --ft-navy-light: #1a2e4a;
+  --ft-coral: rgb(255, 206, 0);
+  --ft-coral-dark: rgb(231, 187, 8);
+  --ft-coral-soft: #f5efb8;
+  --ft-cream: #faf7f2;
+  --ft-cream-dark: #f0ebe3;
+  --ft-sand: #e8e0d5;
+  --ft-white: #ffffff;
+  --ft-text: #1a1a2a;
+  --ft-muted: #6b7280;
+  --ft-muted-light: #9ca3af;
+  --ft-border: rgba(0, 0, 0, 0.08);
+
+  --font-display: "Unbounded", sans-serif;
+  --font-body: "Outfit", sans-serif;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.16);
+  --shadow-xl: 0 24px 64px rgba(0, 0, 0, 0.2);
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 32px;
+
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--ft-cream);
+  color: var(--ft-text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ft-cream-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ft-coral);
+  border-radius: 3px;
+}
+
+/* Page transitions */
+.page-enter {
+  animation: pageIn 0.45s ease both;
+}
+@keyframes pageIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tag pill */
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.tag--grupo {
+  background: #e8f4fd;
+  color: #1a6fa8;
+}
+.tag--cupo {
+  background: #fce9de;
+  color: var(--ft-coral-dark);
+}
+.tag--medida {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+.tag--dias {
+  background: var(--ft-cream-dark);
+  color: var(--ft-muted);
+}
+.tag--ciudad {
+  background: var(--ft-cream-dark);
+  color: var(--ft-muted);
+}

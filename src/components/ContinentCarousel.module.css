@@ -1,0 +1,237 @@
+.section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 60px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  gap: 20px;
+}
+
+.eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--ft-coral);
+  margin-bottom: 14px;
+}
+
+.eyebrow::before {
+  content: '';
+  width: 32px;
+  height: 2px;
+  background: var(--ft-coral);
+  flex-shrink: 0;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3.5vw, 46px);
+  font-weight: 900;
+  color: var(--ft-navy);
+  line-height: 1.05;
+  letter-spacing: -1.5px;
+}
+
+.title em {
+  color: var(--ft-coral);
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Georgia', serif;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--ft-navy);
+  background: transparent;
+  color: var(--ft-navy);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition);
+  font-weight: 600;
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--ft-navy);
+  color: #fff;
+}
+
+.btn:disabled {
+  border-color: var(--ft-sand);
+  color: var(--ft-muted-light);
+  cursor: default;
+}
+
+/* Track */
+.trackWrap { overflow: hidden; }
+
+.track {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  align-items: stretch;
+}
+
+/* Card */
+.card {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--ft-white);
+  box-shadow: var(--shadow-md);
+  cursor: pointer;
+  transition: transform var(--transition), box-shadow var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-xl);
+}
+
+.cardImgWrap {
+  position: relative;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+}
+
+.card:hover .cardImg { transform: scale(1.07); }
+
+.cardOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, rgba(13,31,60,0.55) 100%);
+}
+
+.cardEmoji {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 28px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+/* Card body */
+.cardBody {
+  padding: 24px 24px 28px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardCount {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--ft-coral);
+  background: var(--ft-coral-soft);
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+.cardPrice {
+  font-size: 12px;
+  color: var(--ft-muted);
+  font-weight: 500;
+}
+
+.cardName {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--ft-navy);
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+.cardTagline {
+  font-size: 13px;
+  color: var(--ft-muted);
+  line-height: 1.55;
+  flex: 1;
+}
+
+.cardCta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--ft-coral);
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: gap var(--transition);
+}
+
+.card:hover .cardCta { gap: 12px; }
+.arrow { transition: transform var(--transition); }
+.card:hover .arrow { transform: translateX(4px); }
+
+/* Dots */
+.dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--ft-sand);
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition);
+  padding: 0;
+}
+
+.dotActive {
+  background: var(--ft-coral);
+  width: 24px;
+  border-radius: 4px;
+}
+
+@media (max-width: 900px) {
+  .section { padding: 60px 24px; }
+  .header { flex-direction: column; align-items: flex-start; }
+}

@@ -1,0 +1,77 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: var(--ft-navy);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-display);
+}
+
+.logoMain {
+  font-size: 18px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+
+.logoAccent {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--ft-coral);
+  letter-spacing: -0.5px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav a {
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  color: rgba(255,255,255,0.65);
+  transition: color var(--transition);
+  text-decoration: none;
+}
+
+.nav a:hover { color: #fff; }
+
+.ctaBtn {
+  background: var(--ft-coral) !important;
+  color: #fff !important;
+  padding: 8px 20px;
+  border-radius: 100px;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  letter-spacing: 0.5px;
+  transition: background var(--transition) !important;
+}
+
+.ctaBtn:hover { background: var(--ft-coral-dark) !important; }
+
+@media (max-width: 768px) {
+  .inner { padding: 0 20px; }
+  .nav a:not(.ctaBtn) { display: none; }
+}
