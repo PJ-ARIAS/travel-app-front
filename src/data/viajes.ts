@@ -11,7 +11,6 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1580,
     precioIndividual: 2250,
-    proveedor: "Kannak",
     activo: true,
   },
   {
@@ -24,7 +23,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1700,
     precioIndividual: 1950,
-    proveedor: "Special Tours",
+
     activo: true,
   },
   {
@@ -37,7 +36,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1850,
     precioIndividual: 2390,
-    proveedor: "Kannak",
+
     activo: true,
   },
   {
@@ -50,7 +49,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1450,
     precioIndividual: 1800,
-    proveedor: "Special Tours",
+
     activo: true,
   },
   {
@@ -63,7 +62,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 1890,
     precioIndividual: 2360,
-    proveedor: "Itinae",
+
     activo: true,
   },
   {
@@ -76,7 +75,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 2700,
     precioIndividual: 3620,
-    proveedor: "Kannak",
+
     activo: true,
   },
   {
@@ -89,7 +88,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 3100,
     precioIndividual: 3900,
-    proveedor: "Special Tours",
+
     activo: true,
   },
   {
@@ -102,7 +101,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 2200,
     precioIndividual: 3100,
-    proveedor: "Special Tours",
+
     activo: true,
   },
   {
@@ -115,7 +114,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 2300,
     precioIndividual: 3100,
-    proveedor: "Kannak",
+
     activo: true,
   },
   {
@@ -128,7 +127,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 2500,
     precioIndividual: 3200,
-    proveedor: "Special Tours",
+
     activo: true,
   },
   {
@@ -141,7 +140,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 1950,
     precioIndividual: 2430,
-    proveedor: "Itinae",
+
     activo: true,
   },
   {
@@ -154,7 +153,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1400,
     precioIndividual: 2000,
-    proveedor: "Kannak",
+
     activo: true,
   },
   {
@@ -167,7 +166,6 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1200,
     precioIndividual: 1500,
-    proveedor: null,
     activo: true,
   },
   {
@@ -180,7 +178,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1650,
     precioIndividual: 2100,
-    proveedor: "Special Tours",
+
     activo: true,
   },
   {
@@ -193,7 +191,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1650,
     precioIndividual: 2150,
-    proveedor: "Special Tours",
+
     activo: true,
   },
   {
@@ -206,7 +204,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 1520,
     precioIndividual: 2100,
-    proveedor: "Kannak",
+
     activo: true,
   },
   {
@@ -219,7 +217,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 1650,
     precioIndividual: 2050,
-    proveedor: "Itinae",
+
     activo: true,
   },
   {
@@ -232,7 +230,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1650,
     precioIndividual: 2100,
-    proveedor: "Kannak",
+
     activo: true,
   },
   {
@@ -245,7 +243,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 750,
     precioIndividual: 1000,
-    proveedor: "Interrias",
+
     activo: true,
   },
   {
@@ -258,7 +256,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1550,
     precioIndividual: 2000,
-    proveedor: "Special Tours",
+
     activo: true,
   },
   {
@@ -271,7 +269,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1950,
     precioIndividual: 2400,
-    proveedor: "Special Tours",
+
     activo: true,
   },
   {
@@ -284,7 +282,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 1550,
     precioIndividual: 1950,
-    proveedor: "Itinae",
+
     activo: true,
   },
   {
@@ -297,7 +295,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 1895,
     precioIndividual: 2380,
-    proveedor: "Itinae",
+
     activo: true,
   },
   {
@@ -310,7 +308,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1600,
     precioIndividual: 1950,
-    proveedor: "Special Tours",
+
     activo: true,
   },
   {
@@ -323,7 +321,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 1400,
     precioIndividual: 1900,
-    proveedor: "Kannak",
+
     activo: true,
   },
   {
@@ -336,7 +334,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 2850,
     precioIndividual: 3320,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -349,7 +347,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 2670,
     precioIndividual: 3150,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -362,7 +360,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -375,7 +373,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 3650,
     precioIndividual: 4250,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -388,7 +386,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 1700,
     precioIndividual: 2170,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -401,7 +399,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 1500,
     precioIndividual: 1700,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -414,7 +412,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "Travel Plan",
+
     activo: true,
   },
   {
@@ -427,7 +425,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 4100,
     precioIndividual: 4800,
-    proveedor: "Itinae",
+
     activo: true,
   },
   {
@@ -440,7 +438,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 4000,
     precioIndividual: 5000,
-    proveedor: "Viajar a Japón",
+
     activo: true,
   },
   {
@@ -453,7 +451,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid/Valencia",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -466,7 +464,6 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 1750,
     precioIndividual: 2100,
-    proveedor: null,
     activo: true,
   },
   {
@@ -479,7 +476,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "Travel Plan",
+
     activo: true,
   },
   {
@@ -492,7 +489,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 950,
     precioIndividual: 1170,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -505,7 +502,6 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 2100,
     precioIndividual: 2400,
-    proveedor: null,
     activo: true,
   },
   {
@@ -518,7 +514,6 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: null,
     activo: true,
   },
   {
@@ -531,7 +526,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "Saraya Tours",
+
     activo: true,
   },
   {
@@ -544,7 +539,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -557,7 +552,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "Sara Tours",
+
     activo: true,
   },
   {
@@ -570,7 +565,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 1950,
     precioIndividual: 2205,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -583,7 +578,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -596,7 +591,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: null,
     precioHabDoble: 1475,
     precioIndividual: 1745,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -609,7 +604,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "NewBlue",
+
     activo: true,
   },
   {
@@ -622,7 +617,6 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Valencia",
     precioHabDoble: 2670,
     precioIndividual: 3200,
-    proveedor: "TUI",
     activo: true,
   },
   {
@@ -635,7 +629,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 3800,
     precioIndividual: 4800,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -648,7 +642,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 2500,
     precioIndividual: 3000,
-    proveedor: "Viva Tours",
+
     activo: true,
   },
   {
@@ -661,7 +655,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 2450,
     precioIndividual: 2900,
-    proveedor: "Viva Tours",
+
     activo: true,
   },
   {
@@ -674,7 +668,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 3350,
     precioIndividual: 3750,
-    proveedor: "Viva Tours",
+
     activo: true,
   },
   {
@@ -687,7 +681,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 3550,
     precioIndividual: 4000,
-    proveedor: "Viva Tours",
+
     activo: true,
   },
   {
@@ -700,7 +694,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid",
     precioHabDoble: 3600,
     precioIndividual: 4180,
-    proveedor: "Destinos del Mundo",
+
     activo: true,
   },
   {
@@ -713,7 +707,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid/Valencia",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "NewBlue",
+
     activo: true,
   },
   {
@@ -726,7 +720,7 @@ export const viajes: Viaje[] = [
     ciudadSalida: "Madrid/Valencia",
     precioHabDoble: null,
     precioIndividual: null,
-    proveedor: "NewBlue",
+
     activo: true,
   },
 ];
