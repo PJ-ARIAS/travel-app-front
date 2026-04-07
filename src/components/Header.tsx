@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import styles from "./Header.module.css";
+import logo from "../images/Diseño sin título (2).svg";
 
 const NAV_LINKS = [
   { to: "/", label: "Inicio", end: true },
@@ -17,8 +18,9 @@ const Header: React.FC = () => {
       <div className={styles.inner}>
         {/* Logo */}
         <Link to="/" className={styles.logo} onClick={() => setMenuOpen(false)}>
-          <span className={styles.logoMain}>World</span>
-          <span className={styles.logoAccent}>Travel</span>
+          {/* <span className={styles.logoMain}>World</span>
+          <span className={styles.logoAccent}>Travel</span> */}
+          <img src={logo} alt="FriendlyTrips" />
         </Link>
 
         {/* Desktop nav */}
